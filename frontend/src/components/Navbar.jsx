@@ -10,7 +10,7 @@ const Navbar = () => {
         <NavLink to={'/about'}>About</NavLink>
         <NavLink to={'/services'}>Services</NavLink>
         <NavLink to={'/contact-us'}>Contact us</NavLink>
-        <button className="bg-mainColor px-8 py-2 rounded-full text-sm">Log In</button>
+        <Link to={'/signin'} className="bg-mainColor px-8 py-2 rounded-full text-sm">Log In</Link>
       </div>
     </div>
   );

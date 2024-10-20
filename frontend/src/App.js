@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import SercicePage from "./pages/SercicePage";
 import Profile from "./pages/Profile";
+import SignIn from "./components/SignIn";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<SercicePage />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/signin" element={<SignIn />} />
       </Routes>
       <Footer />
       </BrowserRouter>
