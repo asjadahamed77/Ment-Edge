@@ -28,7 +28,7 @@ const TalkWithUs = () => {
             <img src={Map} alt="" />
           </div>
         </div> */}
-        <div className="flex flex-col md:flex-row justify-between items-center p-10 bg-gray-100">
+        <div className="flex flex-col md:flex-row justify-between items-center p-10">
           <div className="w-full md:w-1/2 space-y-6">
             <h1 className="text-4xl font-bold text-gray-800">
               Let’s Talk With Us
