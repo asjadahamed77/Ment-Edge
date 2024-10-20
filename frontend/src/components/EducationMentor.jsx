@@ -15,7 +15,7 @@ const EducationMentor = () => {
       </div>
       <div className="grid grid-cols-2 gap-6 mt-8">
         {
-            educationMentor.map((item,index)=>(
+            educationMentor.slice(0,4).map((item,index)=>(
                 <div key={index} className="bg-secondaryColor bg-opacity-30 p-4 rounded-2xl">
                     <div className="flex items-center gap-6">
                         <img className="w-16 rounded-full" src={item.mentorImage} alt="" />
@@ -36,6 +36,9 @@ const EducationMentor = () => {
                 </div>
             ))
         }
+      </div>
+      <div className="flex justify-center mt-6 cursor-pointer">
+        See More
       </div>
     </div>
   );
