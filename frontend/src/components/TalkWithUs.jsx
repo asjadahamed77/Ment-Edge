@@ -6,9 +6,9 @@ import Phone from '../assets/Phone.svg'
 
 const TalkWithUs = () => {
   return (
-    <div className='w-[90%] mx-auto my-12'>
-      <div className='bg-greyBgColor px-12 py-8 rounded-3xl'>
-      <div className="contact">
+    <div className="w-[90%] mx-auto my-12">
+      <div className="bg-greyBgColor px-12 py-8 rounded-3xl">
+        <div className="contact">
           <div className="contact right">
             <h1>Let’s Talk With Us</h1>
             <div className="contact-detail">
@@ -30,7 +30,7 @@ const TalkWithUs = () => {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default TalkWithUs
